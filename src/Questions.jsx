@@ -3,7 +3,7 @@ import SingleQuestion from "./SingleQuestion";
 const Questions = ({ questions, activeId, questionToggle }) => {
   return (
     <section className="container">
-      <h1>Questions</h1>
+      <h1>Frequently Asked Questions</h1>
       {questions.map((question) => {
         return (
           <SingleQuestion
